@@ -1,6 +1,4 @@
-package Model;
-
-import java.util.Set;
+package app.model;
 
 public class Book {
 

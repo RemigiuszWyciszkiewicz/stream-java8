@@ -1,4 +1,7 @@
-package Model;
+package app;
+
+import app.model.*;
+import app.model.Student;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -6,6 +9,22 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+    private void test_1() {
         List<Book> bookList = new ArrayList<>();
 
         List<Employee> employeeList
@@ -57,8 +76,5 @@ public class Main {
                 .stream()
                 .collect(Collectors.mapping(Employee::getName, Collectors.toList()));
         //System.out.println(employeeNames);
-
-
-
     }
 }
